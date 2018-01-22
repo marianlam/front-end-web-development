@@ -1,0 +1,236 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>American Fertility Medical Center | Contact Us</title>
+  <link href="../_css/styles.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css?family=Raleway:200" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet"/>
+  <style>
+  body {
+    background-color: white;
+    background-image: url("../_images/stock_photo_contact_us.jpg");
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #contact-us {
+    margin: 50px auto;
+    margin-left: 460px;
+    width: 400px;
+    background-color: white;
+    box-shadow: 2px 2px 8px rgba(10, 10, 10, .5);
+    padding-top: 5px;
+    padding-bottom: 30px;
+  }
+  #contact-us h2 {
+    position: absolute;
+    left: 440px;
+    top: 160px;
+    background-color: rgb(193, 227, 210); /* pale green */
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Satisfy', cursive;
+    padding-top: 5px;
+    text-shadow: 2px 2px 5px rgba(10, 10, 10, .2);
+    box-shadow: 0 2px 2px rgba(10, 10, 10, .35);
+    width: 440px;
+  }
+  #contact-us ul {
+    list-style-type: none;
+    padding-top: 150px;
+  }
+  #contact-us ul li {
+    padding-bottom: 15px;
+    font-weight: bold;
+  }
+  #contact-us input[type="text"],
+  #contact-us input[type="email"],
+  #contact-us input[type="tel"],
+  #contact-us textarea {
+    outline: none;
+    width: 310px;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    padding: 5px;
+  }
+  #contact-us h3 {
+    margin-top: 10px;
+    margin-bottom: -15px;
+  }
+  #contact-us #services {
+    border: none;
+    font-weight: normal;
+  }
+  #contact-us input[type="checkbox"] {
+    width: 20px;
+  }
+  #contact-us input[type="submit"] {
+    margin-left: 4px;
+    background-color: rgb(193, 227, 210); /* pale green */
+    border: 0;
+    border-radius: 3px;
+    color: white;
+    font-family: 'Satisfy', cursive;
+    font-size: 30px;
+    text-shadow: 2px 2px 5px rgba(10, 10, 10, .2);
+    box-shadow: 0 2px 2px rgba(10, 10, 10, .35);
+    height: 50px;
+    outline: none;
+    width: 310px;
+    padding: 5px;
+  }
+  #contact-us input[type="submit"]:focus,
+  #contact-us input[type="submit"]:hover,
+  #contact-us input[type="submit"]:active {
+    transform: translateY(2px);
+    box-shadow: 0 1px 1px rgba(10, 10, 10, .2);
+  }
+  #contact-us textarea {
+    height: 100px;
+    border: lightgray solid 1px;
+  }
+  </style>
+</head>
+<body>
+  <!-- mark-up for language options -->
+  <div id="extras">
+    <ul>
+      <li><small><img src="../_assets/globe_with_meridians.svg" alt="change language" width="14" height="14" id="extras-languages-globe"/>languages &blacktriangleright;</small></li>
+      <li><a href=""><small>espa&ntilde;ol</small></a><small> &vert;</small></li>
+      <li><a href=""><small>&#x7b80;&#x4f53;&#x4e2d;&#x6587;</small></a><small> &vert;</small></li>
+      <li><a href=""><small>&#x7e41;&#x9ad4;&#x4e2d;&#x6587;</small></a></li>
+      </ul>
+    </div>
+    <!-- mark-up for the navigation bar -->
+    <div id="nav">
+      <a href="../index.html"><img src="../../sample_logos/fertility_clinic_logo_2.png" alt="site logo" width="200" height="55" id="site-logo"/></a>
+      <ul>
+        <li><div class="dropdown" id="dropdown-one">
+          <a href="javascript:void(0)" class="dropbtn">services</a><!--<span class="vert">&vert;</span>-->
+          <div class="dropdown-content">
+            <a href="../services/treatments.html">treatments</a>
+            <a href="">facilities</a>
+          </div>
+        </div>
+      </li>
+      <li><div class="dropdown" id="dropdown-two">
+        <a href="javascript:void(0)" class="dropbtn">information</a><!--<span class="vert">&vert;</span>-->
+        <div class="dropdown-content">
+          <a href="">our doctors</a>
+          <a href="">patient education</a>
+          <a href="">testimonials</a>
+          <a href="contact_us.html">contact us</a>
+        </div>
+      </div>
+    </li>
+    <li><a href="javascript:void(0)" class="dropbtn" target="_blank">location</a></li><!--span class="vert">&vert;</span>-->
+    <li><a href="javascript:void(0)" class="dropbtn" target="_blank">news</a></li><!--<span class="vert">&vert;</span>-->
+    <li><a href="../make_an_appointment/make_an_appointment.html" class="dropbtn">make an appointment</a></li>
+  </ul>
+</div><!-- end of navigation bar mark-up -->
+
+<!-- HTML5 form mark-up with validation -->
+<div id="contact-us">
+  <form action="#" method="post">
+    <h2>contact us</h2>
+    <ul>
+      <li>
+        <label for="first-name">first name</label><br>
+        <input type="text" id="first-name" name="first-name" maxlength="35" pattern="[A-Za-z ,.'-]+" required/>
+      </li>
+      <li>
+        <label for="last-name">last name</label><br>
+        <input type="text" id="last-name" name="last-name" maxlength="35" pattern="[A-Za-z ,.'-]+" required/>
+      </li>
+      <li>
+        <label for="telephone-num">telephone &#35;</label><br>
+        <input type="tel" id="telephone-num" name="telephone-num" maxlength="26" required/>
+      </li>
+      <li>
+        <label for="email">email address</label><br>
+        <input type="email" id="email" name="email" maxlength="254"/>
+      </li>
+      <li>
+        <h3>what are you looking for&#63;</h3><br>
+        <fieldset id="services">
+          <input type="checkbox" id="service_1" name="services" value="first-time consultation"/>
+          <label for="service_1">first&#45;time consultation</label><br>
+          <input type="checkbox" id="service_2" name="services" value="follow-up visit"/>
+          <label for="service_2">follow&#45;up visit</label><br>
+          <input type="checkbox" id="service_3" name="services" value="IUI"/>
+          <label for="service_3">intra&#45;uterine insemination</label><br>
+          <input type="checkbox" id="service_4" name="services" value="IVF"/>
+          <label for="service_4">in vitro fertilization</label><br>
+          <input type="checkbox" id="service_5" name="services" value="ET"/>
+          <label for="service_5">embryo transfer</label><br>
+          <input type="checkbox" id="service_6" name="services" value="hysteroscopy"/>
+          <label for="service_6">hysteroscopy</label><br>
+          <input type="checkbox" id="service_7" name="services" value="laparoscopy"/>
+          <label for="service_7">laparoscopy</label><br>
+          <input type="checkbox" id="service_8" name="services" value="andrology lab tests"/>
+          <label for="service_8">andrology lab tests</label><br>
+          <input type="checkbox" id="service_9" name="services" value="embryology lab tests"/>
+          <label for="service_9">embryology lab tests</label><br>
+          <input type="checkbox" id="service_10" name="services" value="other"/>
+          <label for="service_10">other</label>
+        </fieldset>
+      </li>
+      <li>
+        <label for="comments">questions &amp; comments</label><br>
+        <textarea id="comments" name="comments" maxlength="300" placeholder="max 300 characters"></textarea>
+      </li>
+      <li>
+      <input type="submit" name="submit"/>
+      </li>
+    </ul>
+    </form>
+  </div>
+
+  <!-- mark-up for the footer -->
+  <div id="footer">
+    <div id="footer-column-one"><!-- COLUMN ONE -->
+      <ul>
+        <li><h3>services</h3></li>
+        <li><a href="../services/treatments.html">treatments</a></li>
+        <li><a href="#">facilities</a></li>
+      </ul>
+    </div>
+    <div id="footer-column-two"><!-- COLUMN TWO -->
+      <ul>
+        <li><h3>information</h3></li>
+        <li><a href="#">our doctors</a></li>
+        <li><a href="#">patient education</a></li>
+        <li><a href="#">testimonials</a></li>
+        <li><a href="information/contact_us.html">contact us</a></li>
+      </ul>
+    </div>
+    <div id="footer-column-three"><!-- COLUMN THREE -->
+      <ul>
+        <li><h3>follow us on</h3></li>
+        <li class="social-media"><a href="#" target="_blank"><img src="../_assets/facebook.svg" alt="facebook" width="35" height="35"/></a></li>
+        <li class="social-media"><a href="#" target="_blank"><img src="../_assets/youtube.svg" alt="youtube" width="35" height="35"/></a></li>
+        <li class="social-media"><a href="#" target="_blank"><img src="../_assets/linkedin.svg" alt="linkedin" width="35" height="35"></a></li>
+      </ul>
+    </div>
+    <div id="footer-column-four"><!-- COLUMN FOUR -->
+      <ul>
+        <li><h3>our location</h3></li>
+        <li>2 hughes<br>irvine, ca 92618</li>
+      </ul>
+    </div>
+    <div id="footer-column-five"><!-- COLUMN FIVE -->
+      <ul>
+        <li><h3>telephone &#35;</h3></li>
+        <li id="telephone-number">(909) 655-8880</li>
+      </ul>
+    </div>
+    <div id="footer-bottom">
+      <p><small>&copy; 2017 American Fertility Medical Center</small></p>
+    </div>
+  </div><!-- end of footer -->
+
+</body>
+</html>

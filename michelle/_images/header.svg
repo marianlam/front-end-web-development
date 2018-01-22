@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1752" height="484" viewBox="0 0 1752 484">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 300px;
+        font-family: "Bodoni 72 Smallcaps";
+      }
+
+      .cls-1, .cls-2 {
+        fill: #fabe8a;
+        text-anchor: middle;
+      }
+
+      .cls-2 {
+        font-size: 200px;
+        font-family: "Snell Roundhand";
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <text id="MICHELLE_S" data-name="MICHELLE’S" class="cls-1" transform="translate(878.109 214.549) scale(1.073 1.005)"><tspan x="0">MICHELLE’S</tspan></text>
+  <text id="New_York" data-name="New York" class="cls-2" x="879.292" y="421.135"><tspan x="879.292">New York</tspan></text>
+</svg>

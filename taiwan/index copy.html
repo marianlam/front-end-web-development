@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <title>Visit Taiwan</title>
+  <link rel="icon" href="images/logo.png"/>
+  <link href="https://fonts.googleapis.com/css?family=Quicksand|Amatic+SC" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
+  <style>
+  /* styles for intro section */
+  #intro {
+    clear: left;
+    background-image: url(images/hillside.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: black;
+    padding-bottom: 40%;
+  }
+  #intro h1 {
+    text-align: center;
+    color: rgba(255, 0, 0, .75);
+    font-family: 'Times New Roman', serif;
+    font-size: 5.3em;
+    margin-bottom: 0;
+    margin-top: 150px;
+    text-shadow: 2px 2px rgba(220, 220, 220, .5);
+    text-transform: uppercase;
+  }
+  #intro span {
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 4em;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: rgba(255, 255, 255, .5);
+    background-color: rgba(255, 255, 255, .1);
+    padding: 3.4em 1em 1.6em;
+    border-radius: 50%;
+  }
+  /*#video-block {
+    display: block;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+  }*/
+  #links-block {
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-image: url(images/wood.jpg);
+    background-repeat: repeat-y;
+    margin-top: -16px;
+  }
+  #links-block ul li {
+    list-style-type: none;
+  }
+  #links-block ul li img {
+    box-shadow: 6px 6px 5px rgb(10, 10, 10);
+    margin-left: 22%;
+    margin-bottom: 2%;
+  }
+  #hotel-link {
+    padding-top: 4%;
+  }
+  #links-block img:hover {
+    transform: translateY(4px) translateX(4px);
+  }
+  </style>
+</head>
+<body>
+  <div id="intro"><!-- intro start -->
+    <div id="nav">
+      <ul>
+        <li><a href="addlink">journal</a></li>
+        <li><a href="addlink">gallery</a></li>
+        <li><img src="images/stamp.png" alt=""></li>
+        <li><a href="addlink">contact</a></li>
+        <li><a href="addlink">about us</a></li>
+      </div>
+      <h1>Taiwan</h1>
+      <span>The heart of Asia</span>
+    </div><!-- intro end -->
+
+<!--<div id="video-block">
+      <video src="videos/7-ELEVEN.mp4" width="100%" height="700px" controls></video>
+    </div>-->
+
+    <div id="links-block"><!-- links block start -->
+      <ul>
+        <li id="hotel-link"><a href=""><img src="images/postcards/cityscape.png" alt="click here to view hotels and resorts" width="50%" height="35%"></a></li>
+        <li id="attractions-link"><a href=""><img src="images/postcards/tableware.png" alt="click here to learn more about local attractions" width="50%" height="35%"></a></li>
+        <li id="food-link"><a href=""><img src="images/postcards/making_dumplings.png" alt="click here if you're hungry" width="50%" height="35%"></a></li>
+        <li id="destinations-link"><a href=""><img src="images/postcards/mountain_landscape.jpg" alt="click here to see some scenic destinations" width="50%" height="35%"></a></li>
+      </ul>
+    </div><!-- links block end -->
+
+    <div id="footer"><!-- footer start -->
+      <div id="footer-top"><!-- footer top -->
+        <div id="footer-column-one"><!-- COLUMN ONE -->
+          <ul id="nav-links">
+            <li><h3>Navigation Links</h3></li>
+            <li><a href="">Journal</a></li>
+            <li><a href="">Gallery</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">About Us</a></li>
+          </ul>
+          <ul id="external-links">
+            <li><h3>Other related sites</h3></li>
+            <li><a href="http://eng.taiwan.net.tw/" target="_blank">Our Corporate Site</a></li>
+            <li><a href="http://eng.taiwan.net.tw/m1.aspx?sNo=0000212" target="_blank">Plan Your Business Event</a></li>
+          </ul>
+        </div>
+        <div id="footer-column-two"><!-- COLUMN TWO -->
+          <ul id="social-icons">
+            <li><h3>Connect with us</h3></li>
+            <li><a href="https://www.facebook.com/TourTaiwan/" target="_blank"><img src="images/social_icons/facebook.png" alt="facebook" width="19%"></a></li>
+            <li><a href="https://www.instagram.com/tourtaiwan_official/" target="_blank"><img src="images/social_icons/instagram.png" alt="instagram" width="19%"></a></li>
+            <li><a href="https://line.me/en-US/" target="_blank"><img src="images/social_icons/line.png" alt="line" width="19%"></a></li>
+            <li><a href="https://www.youtube.com/user/taiwanbesttrip" target="_blank"><img src="images/social_icons/youtube.png" alt="youtube" width="19%"></a></li>
+          </ul>
+          <form id="email-newsletter" action="" method="get">
+            <fieldset>
+              <legend><h3>Join our newsletter</h3></legend>
+              <label>Email <span class="required">*</span></label><br>
+              <input type="email" name="email" placeholder="Your email address">
+              <input type="submit" value="Submit">
+            </fieldset>
+          </form>
+        </div>
+        <div id="footer-column-three"><!-- COLUMN THREE -->
+          <ul>
+            <li><h3>Hear what others have to say</h3></li>
+            <li>Find out how to <a href="https://www.tripadvisor.com/" target="_blank">live like a local</a> on <br><img src="images/tripadvisor.png" alt="trip advisor" width="70%"></li>
+          </div>
+          <div id="footer-column-four"><!-- COLUMN FOUR -->
+            <ul id="footer-partners">
+              <li><h3>Our partners</h3></li>
+              <li><img src="images/partners/cnn.png" alt="cnn" width="80%"></li>
+              <li><img src="images/partners/expedia.png" alt="expedia" width="70%"></li>
+              <li><img src="images/partners/world-travel-market.png" alt="world travel market" width="50%"></li>
+              <li><img src="images/partners/7-eleven.jpg" alt="seven eleven" width="22%"></li>
+            </ul>
+          </div>
+        </div><!-- end of footer top -->
+        <div id="footer-bottom"><!-- footer bottom -->
+          <div id="copyright">
+            <p><small>Copyright &copy; 2017 Taiwan Board of Tourism |
+              <a href="">Terms of Use</a> |
+              <a href="">Privacy</a></small></p>
+            </div>
+          </div><!-- end of footer bottom -->
+        </div><!-- footer end -->
+      </body>
+      </html>
